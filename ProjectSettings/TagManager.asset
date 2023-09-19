@@ -8,6 +8,9 @@ TagManager:
   - Destroy
   - Dango
   - Get
+  - Get1
+  - Get2
+  - Get3
   layers:
   - Default
   - TransparentFX
