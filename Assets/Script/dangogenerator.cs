@@ -6,7 +6,7 @@ public class dangogenerator : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject greenPrefab;
-    float span =3.0f; //生成速度
+    float span =7.0f; //生成速度
     float delta=0;
 
     void Start()
@@ -22,8 +22,8 @@ public class dangogenerator : MonoBehaviour
         {
             this.delta=0;
             GameObject go =Instantiate(greenPrefab);
-            int px = Random.Range(-10,10);
-            int py = Random.Range(12,20);
+            int px = Random.Range(-7,7);
+            int py = Random.Range(8,25);
             go.transform.position=new Vector2(px,py);
         }
 

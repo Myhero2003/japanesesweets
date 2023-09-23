@@ -23,13 +23,17 @@ public class StickMovement : MonoBehaviour
 
         if(Input.GetKey("left"))
         {
-            position.x-=speed;
+            position.x-=speed*2;
+            
+            
 
         }
         else if(Input.GetKey("right"))
         {
-            position.x+=speed;
+            position.x+=speed*2;
         }
+        
+        
         transform.position=position;
     }
 }
